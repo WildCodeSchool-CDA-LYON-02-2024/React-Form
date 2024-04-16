@@ -4,7 +4,7 @@ import "./Input.css";
 function Input({ children, ...restProps }) {
   return (
     <div className="form__group field">
-      <input {...restProps} />
+      <input className="normal" {...restProps} />
       <label className="form__label">{children}</label>
     </div>
   );
