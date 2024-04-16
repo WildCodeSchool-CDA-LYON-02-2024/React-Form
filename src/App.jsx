@@ -20,7 +20,14 @@ function App() {
       <Input className="input-Text" placeholder="Name">
         <label htmlFor="Name"> Name</label>
       </Input>
-      <Input className="input-Text" placeholder="Name"></Input>
+      <Input className="normal" placeholder="Name"></Input>
+      <Input className="normal" placeholder="Email" type="email"></Input>
+      <Input
+        className="normal-round"
+        placeholder="password"
+        type="password"
+      ></Input>
+      <Input placeholder="Test"></Input>
     </>
   );
 }
