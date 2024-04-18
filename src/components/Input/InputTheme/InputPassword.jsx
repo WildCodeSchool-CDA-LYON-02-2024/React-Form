@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./InputPassword.css";
-import eye from "../../assets/eye.svg";
-import eyeOff from "../../assets/eye-off.svg";
+import "./InputTheme.css";
+import eye from "../../../assets/eye.svg";
+import eyeOff from "../../../assets/eye-off.svg";
 
 function InputPassword() {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -25,7 +25,7 @@ function InputPassword() {
         <img
           alt="Eye Icon"
           title="Toggle Password Visibility"
-          src={passwordVisible ? eyeOff : eye}
+          src={passwordVisible ? eye : eyeOff}
           className="input__icon"
           onClick={togglePasswordVisibility}
         />
