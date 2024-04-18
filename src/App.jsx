@@ -1,14 +1,11 @@
 // import Button from "./components/Button/Button";
-// import Input from "./components/Input/Input";
-// import InputPassword from "./components/Input/InputPassword";
-import Form from "./components/Form/Form";
+import InputPassword from "./components/Input/InputTheme/InputPassword";
 import "./App.css";
 
 function App() {
   return (
     <>
-      
-      <Form></Form>
+      <InputPassword></InputPassword>
     </>
   );
 }
