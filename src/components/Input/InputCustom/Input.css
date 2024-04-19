@@ -17,9 +17,7 @@
   background: transparent;
   transition: border-color 0.2s;
 
-  &::placeholder {
-    color: transparent;
-  }
+
 
   &:placeholder-shown ~ .form__label {
     font-size: 1.3rem;
@@ -77,6 +75,7 @@
   border-color: #007bff;
 }
 
+/********************* Normal-round*************************** */
 .normal-round {
   width: 20em;
   border: none;
