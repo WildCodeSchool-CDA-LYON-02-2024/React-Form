@@ -1,8 +1,22 @@
-# React + Vite
+# Bienvenue dans la documentation du projet FORMI-DABLE ! Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+Pour commencer à utiliser la bibliothèque, suivez ces étapes :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. ### Clonez ce dépôt sur votre machine locale :
+
+*git@github.com:WildCodeSchool-CDA-LYON-02-2024/React-Form.git*
+
+2. ### Installez les dépendances nécessaires à l'aide de npm :
+
+  *npm install*
+
+3. ### Dans le répertoire du projet, vous pouvez exécuter le script suivant:
+
+    *npm run dev*
+
+4. ### Cela démarre le serveur de développement:
+
+   *Ouvrez http://localhost:3000*
+    
