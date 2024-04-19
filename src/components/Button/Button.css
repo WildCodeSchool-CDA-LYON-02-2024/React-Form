@@ -110,7 +110,7 @@
 /* meta********************************* */
 
 /* CSS */
-.button-23 {
+.button-normal {
   margin: 1em;
   background-color: #ffffff;
   border: 1px solid #222222;
@@ -146,20 +146,20 @@
   width: auto;
 }
 
-.button-23:focus-visible {
+.button-normal:focus-visible {
   box-shadow:
     #222222 0 0 0 2px,
     rgba(255, 255, 255, 0.8) 0 0 0 4px;
   transition: box-shadow 0.2s;
 }
 
-.button-23:active {
+.button-normal:active {
   background-color: #f7f7f7;
   border-color: #000000;
   transform: scale(0.96);
 }
 
-.button-23:disabled {
+.button-normal:disabled {
   border-color: #dddddd;
   color: #dddddd;
   cursor: not-allowed;
@@ -169,7 +169,7 @@
 /* ***************************************/
 
 /* CSS */
-.button-61 {
+.button-martial {
   margin: 1em;
   align-items: center;
   appearance: none;
@@ -206,14 +206,14 @@
   will-change: transform, opacity;
 }
 
-.button-61:hover {
+.button-martial:hover {
   box-shadow:
     rgba(0, 0, 0, 0.2) 0 2px 4px -1px,
     rgba(0, 0, 0, 0.14) 0 4px 5px 0,
     rgba(0, 0, 0, 0.12) 0 1px 10px 0;
 }
 
-.button-61:disabled {
+.button-martial:disabled {
   background-color: rgba(0, 0, 0, 0.12);
   box-shadow:
     rgba(0, 0, 0, 0.2) 0 0 0 0,
@@ -224,18 +224,18 @@
   pointer-events: none;
 }
 
-.button-61:not(:disabled) {
+.button-martial:not(:disabled) {
   background-color: #6200ee;
 }
 
-.button-61:focus {
+.button-martial:focus {
   box-shadow:
     rgba(0, 0, 0, 0.2) 0 2px 4px -1px,
     rgba(0, 0, 0, 0.14) 0 4px 5px 0,
     rgba(0, 0, 0, 0.12) 0 1px 10px 0;
 }
 
-.button-61:active {
+.button-martial:active {
   box-shadow:
     rgba(0, 0, 0, 0.2) 0 5px 5px -3px,
     rgba(0, 0, 0, 0.14) 0 8px 10px 1px,
