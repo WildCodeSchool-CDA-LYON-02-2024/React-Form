@@ -37,6 +37,12 @@ Ce projet est une bibliothèque de formulaires réutilisables pour les applicati
 
 6. ## Quick start
 
+   Exemple d'utilisation simple de notre application
+
+   ![Code pour un formulaire basique](https://cdn.discordapp.com/attachments/1227592850624090143/1230871127706960024/Capture_decran_2024-04-19_121559.png?ex=6623c191&is=66227011&hm=43cb5c69f3637ef484babc00f95c7221812c1e570dae1454e838a1b1fbb8cf8b&)
+
+Voici le rendu!
+
    ![Sign Up Form](https://cdn.discordapp.com/attachments/1227592850624090143/1230871184388919396/Capture_decran_2024-04-19_115332.png?ex=6634e51e&is=6622701e&hm=c4f96c21ed8bdc943c2aaf83a7878cbc6736107a6a58a87202f437a554171ae2&)
 
 
