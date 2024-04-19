@@ -6,7 +6,7 @@ Pour commencer à utiliser la bibliothèque, suivez ces étapes :
 
 1. ### Clonez ce dépôt sur votre machine locale :
 
-*git@github.com:WildCodeSchool-CDA-LYON-02-2024/React-Form.git*
+git@github.com:WildCodeSchool-CDA-LYON-02-2024/React-Form.git
 
 2. ### Installez les dépendances nécessaires à l'aide de npm :
 
