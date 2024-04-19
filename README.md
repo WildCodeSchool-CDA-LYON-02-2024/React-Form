@@ -50,6 +50,7 @@ Voici le rendu!
 Exemple d'un input 
 
 ![code pour un input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875331783692359/Capture_decran_2024-04-19_153654.png?ex=6634e8fb&is=662273fb&hm=83a38af114647d98a1608253bd13bfa50b986d2e5f8f1f1dd8aa6f6046a3a7a9&)
+![dans le return]([https://cdn.discordapp.com/attachments/1227592850624090143/1230875331783692359/Capture_decran_2024-04-19_153654.png?ex=6634e8fb&is=662273fb&hm=83a38af114647d98a1608253bd13bfa50b986d2e5f8f1f1dd8aa6f6046a3a7a9&](https://media.discordapp.net/attachments/1227592850624090143/1230875331553132606/Capture_decran_2024-04-19_153230.png?ex=6634e8fb&is=662273fb&hm=1e0d2862839f97d4c2f951fbb734bd44a195fd54457913a310e77fbc7dfe6a65&=&format=webp&quality=lossless&width=1434&height=66))
 
 Voici le rendu
 
