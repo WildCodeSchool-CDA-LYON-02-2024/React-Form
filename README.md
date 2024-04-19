@@ -49,8 +49,11 @@ Voici le rendu!
 
 Exemple d'un input 
 
-[code pour un input](C:\Users\cali_\Pictures\Screenshots\Capture d'écran 2024-04-19 153654.png)
+[code pour un input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875331783692359/Capture_decran_2024-04-19_153654.png?ex=6634e8fb&is=662273fb&hm=83a38af114647d98a1608253bd13bfa50b986d2e5f8f1f1dd8aa6f6046a3a7a9&)
 
+Voici le rendu
+
+[input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875737695846410/Capture_decran_2024-04-19_153956.png?ex=6634e95c&is=6622745c&hm=967a58b16562e0d351b66c78b5eb2cf86b80b067decde47496c1ce0a8d7919f1&)
 
    
 
