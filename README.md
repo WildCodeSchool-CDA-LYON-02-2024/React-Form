@@ -57,8 +57,17 @@ Voici le rendu
 
 ![input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875737695846410/Capture_decran_2024-04-19_153956.png?ex=6634e95c&is=6622745c&hm=967a58b16562e0d351b66c78b5eb2cf86b80b067decde47496c1ce0a8d7919f1&)
 
-   
 
+
+   Exemple d'un button
+
+![code pour un button](https://media.discordapp.net/attachments/1227592850624090143/1230875330932379649/Capture_decran_2024-04-19_153014.png?ex=6634e8fb&is=662273fb&hm=64bfcc543fbc71ba1323ac66cf07effa0120aebc0f1d18c8c789d867a11c4dfd&=&format=webp&quality=lossless&width=1010&height=43)
+
+![dans le return](https://media.discordapp.net/attachments/1227592850624090143/1230875330642968586/Capture_decran_2024-04-19_152957.png?ex=6634e8fb&is=662273fb&hm=373f6edd1cf9d8d49d1bc44d59d97db5a3fcdac0a636583c9141591818eadbd9&=&format=webp&quality=lossless&width=1220&height=87)
+
+
+Voici le rendu
+![button](https://media.discordapp.net/attachments/1227592850624090143/1230875330202439711/Capture_decran_2024-04-19_152914.png?ex=6634e8fb&is=662273fb&hm=6fe814cef355e48a229c7ed0ca79a9fac9b8e35159b226a14e13c54ab814865d&=&format=webp&quality=lossless&width=458&height=123)
 
 
 
