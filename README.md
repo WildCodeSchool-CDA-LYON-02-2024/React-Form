@@ -37,11 +37,7 @@ Ce projet est une bibliothèque de formulaires réutilisables pour les applicati
 
 6. ## Quick start
 
-   "C:\Users\cali_\Pictures\Screenshots\Capture d'écran 2024-04-19 121559.png"
-
-
-
-   "C:\Users\cali_\Pictures\Screenshots\Capture d'écran 2024-04-19 115332.png"
+   
 
 
    
