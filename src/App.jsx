@@ -1,15 +1,15 @@
-import Button from "./components/Button/Button";
-import InputPassword from "./components/Input/InputTheme/InputPassword";
+// import Button from "./components/Button/Button";
+// import InputPassword from "./components/Input/InputTheme/InputPassword";
 import Form from "./components/Form/FormCustom/FormCustom";
 
-import Input from "./components/Input/InputCustom/Input";
+// import Input from "./components/Input/InputCustom/Input";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      {/* <Form>
+      <Form>
         <div className="input-container">
           <h1 className="signup">Sign-Up</h1>
           <input type="text" placeholder="nom" />
@@ -18,14 +18,14 @@ function App() {
           <input type="password" placeholder="password" />
         </div>
         <button className="btn-signup">signup</button>
-      </Form> */}
+      </Form> 
       {/* <Button className="button-glow ">button-glow </Button>
       <Button className=" cta-button "> cta-button </Button>
-      <Button className="button-normal ">button-normal </Button> */}
+      <Button className="button-normal ">button-normal </Button>  */}
 
-      {/* <Button className="button-martial ">button-martial</Button> */}
+      {/* <Button className="button-martial ">button-martial</Button>
 
-      {/* <InputPassword></InputPassword> */}
+      {/* <InputPassword></InputPassword>
 
        <Input className="normal" placeholder="className = normal"></Input>
 
