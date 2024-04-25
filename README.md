@@ -1,5 +1,6 @@
 # Bienvenue dans la documentation du projet FORMI-DABLE ! 
 
+---
 Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.
 
 
