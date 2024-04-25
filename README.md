@@ -39,7 +39,41 @@ Ce projet est une bibliothèque de formulaires réutilisables pour les applicati
 
    Exemple d'utilisation simple de notre application
 
-   ![Code pour un formulaire basique](https://cdn.discordapp.com/attachments/1227592850624090143/1230871127706960024/Capture_decran_2024-04-19_121559.png?ex=6623c191&is=66227011&hm=43cb5c69f3637ef484babc00f95c7221812c1e570dae1454e838a1b1fbb8cf8b&)
+ ```jsx
+import { Form, Input } from "@shark-man/react-form";
+
+function App() {
+  return (
+    <>
+      <Form className="basic-form">
+        <h2>Information</h2>
+        <Input type="text" placeholder="firstname" />
+        <Input type="text" placeholder="lastname" />
+        <Input type="number" placeholder="age" />
+        <label>i have a handicap</label>
+        <label htmlFor="">
+          <input type="radio" /> Yes
+        </label>
+        <label htmlFor="">
+          <Input type="radio" /> No
+        </label>
+
+        <select>
+          {" "}
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+
+        <button> Submit </button>
+      </Form>
+    </>
+  );
+}
+vbnet
+Copy code
+
+```markdown
 
 Voici le rendu!
 
