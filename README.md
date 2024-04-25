@@ -1,7 +1,7 @@
 # Bienvenue dans la documentation du projet FORMI-DABLE ! 
 
 ---
-__Ce projet est une bibliothèque de formulaires réutilisables pour les applications web. :)__
+__Ce projet est une bibliothèque de formulaires réutilisables pour les applications web. :) __
 
 
 
@@ -9,7 +9,7 @@ __Ce projet est une bibliothèque de formulaires réutilisables pour les applica
 
 
 ## Installation
- Pour commencer à utiliser la bibliothèque, suivez ces étapes :
+__ Pour commencer à utiliser la bibliothèque, suivez ces étapes : __
       
       npm i @shark-man/react-form
 
