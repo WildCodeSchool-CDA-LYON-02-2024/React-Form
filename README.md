@@ -12,7 +12,6 @@ __Ce projet est une bibliothèque de formulaires réutilisables pour les applica
  Pour commencer à utiliser la bibliothèque, suivez ces étapes :
       
       npm i @shark-man/react-form
-```
 
 ***
 
