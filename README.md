@@ -14,32 +14,9 @@ __Ce projet est une bibliothèque de formulaires réutilisables pour les applica
       npm i @shark-man/react-form
 ```
 
+***
 
-1. ### Clonez ce dépôt sur votre machine locale :
-
-      git@github.com:WildCodeSchool-CDA-LYON-02-2024/React-Form.git
-
-
-
-2. ### Installez les dépendances nécessaires à l'aide de npm :
-
-       npm install
-
-
-
-3. ### Dans le répertoire du projet, vous pouvez exécuter le script suivant:
-
-       npm run dev
-
-   
-
-5. ### Cela démarre le serveur de développement:
-
-      Ouvrez http://localhost:3000
-
-6. ## Quick start
-
-   Exemple d'utilisation simple de notre application
+## Exemple d'utilisation simple de notre application
 
  ```jsx
 import { Form, Input } from "@shark-man/react-form";
