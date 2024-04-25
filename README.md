@@ -54,7 +54,7 @@ function App() {
 
 Voici le rendu!
 
-   ![exemple d'utilisation](file:///C:/Users/cali_/Pictures/Screenshots/Capture%20d'%C3%A9cran%202024-04-25%20220854.png)
+   ![exemple d'utilisation](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662c0f87&is=662abe07&hm=bc364b55b887b0a7386154f5dff808b746e34f6e767b7eb729268e8889e5a428&)
 
 
 
