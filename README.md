@@ -70,10 +70,9 @@ function App() {
     </>
   );
 }
-vbnet
-Copy code
 
-```markdown
+
+```
 
 Voici le rendu!
 
