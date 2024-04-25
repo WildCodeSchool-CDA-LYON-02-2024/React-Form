@@ -1,45 +1,104 @@
-// import Button from "./components/Button/Button";
-// import InputPassword from "./components/Input/InputTheme/InputPassword";
-import Form from "./components/Form/FormCustom/FormCustom";
+import { useState } from "react";
+import Form from "./components/Form/Form";
+import InputPassword from "./components/Input/InputTheme/InputPassword";
+import Input from "./components/Input/Input";
 
-// import Input from "./components/Input/InputCustom/Input";
+// Composant App
+const App = () => {
+  const [formData, setFormData] = useState({
+    email: "",
+    date: "",
+    password: "",
+    radioOption: "",
+  });
+  const [errors, setErrors] = useState({});
 
-import "./App.css";
+  const handleSubmit = async () => {
+    try {
+      const response = await fetch("http://localhost:3000/api", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-function App() {
+      if (!response.ok) {
+        throw new Error("Failed to submit form");
+      }
+
+      console.log("Form submitted successfully");
+    } catch (error) {
+      console.error("Error submitting form:", error.message);
+      setErrors({ submit: "Failed to submit form" });
+    }
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleError = (error) => {
+    console.error("Form submission error:", error.message);
+  };
+
   return (
-    <>
-      <Form>
-        <div className="input-container">
-          <h1 className="signup">Sign-Up</h1>
-          <input type="text" placeholder="nom" />
-          <input type="text" placeholder="prenom" />
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
-        </div>
-        <button className="btn-signup">signup</button>
-      </Form> 
-      {/* <Button className="button-glow ">button-glow </Button>
-      <Button className=" cta-button "> cta-button </Button>
-      <Button className="button-normal ">button-normal </Button>  */}
+    <div>
+      <Form
+        title="Animal"
+        onSubmit={handleSubmit}
+        onError={handleError}
+        className="basic-form"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+        <input
+          type="date"
+          name="date"
+          value={formData.date}
+          onChange={handleChange}
+        />
+        <InputPassword
+          name="password"
+          placeholder="password"
+          value={formData.password}
+          onChange={handleChange}
+        ></InputPassword>
+        <label htmlFor="">
+          <input
+            type="radio"
+            name="radioOption"
+            value="option1"
+            checked={formData.radioOption === "option1"}
+            onChange={handleChange}
+          ></input>{" "}
+          Click here here here here
+        </label>
+        <label htmlFor="">
+          <input
+            type="radio"
+            name="radioOption"
+            value="option2"
+            checked={formData.radioOption === "option2"}
+          ></input>{" "}
+          Click here here here here
+        </label>
+        <Input type="password" placeholder="password" />
+        <button>login</button>
+      </Form>
 
-      {/* <Button className="button-martial ">button-martial</Button>
-
-      {/* <InputPassword></InputPassword>
-
-       <Input className="normal" placeholder="className = normal"></Input>
-
-      <Input
-        className="normal-round"
-        placeholder="className = normal-round"
-      ></Input>
-
-     {/* <Input
-        className="input-Text"
-        placeholder="className = input-Text"
-      ></Input> */}
-    </>
+      {errors.submit && <p>{errors.submit}</p>}
+    </div>
   );
-}
+};
 
 export default App;
