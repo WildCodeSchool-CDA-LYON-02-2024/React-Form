@@ -1,23 +1,23 @@
-# Bienvenue dans la documentation du projet FORMI-DABLE ! 
+
+# FORMI-DABLE !
 
 ---
-__Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.__  
 
-
-
-
-
+**Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
 
 ## Installation
-__Pour commencer à utiliser la bibliothèque, suivez ces étapes :__
-      
+
+**Pour commencer à utiliser la bibliothèque, suivez ces étapes :**
+
       npm i @shark-man/react-form
 
-***
+---
 
 ## Exemple d'utilisation simple de notre application
 
- ```jsx
+```jsx
+
+
 import { Form, Input } from "@shark-man/react-form";
 
 function App() {
@@ -49,38 +49,130 @@ function App() {
   );
 }
 
-
+export default App;
 ```
 
 ### Voici le rendu!
+
 ---
-   ![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
 
+![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
 
+### Exemple Login Form
 
-Exemple d'un input 
+```jsx
+import { Form, Input, InputPassword } from "@shark-man/react-form";
+import { useState } from "react";
+function App() {
+  const [data, setData] = useState({
+    email: " ",
+    password: " ",
+  });
+  const handleSubmit = () => {
+    console.log(data);
+  };
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setData({
+      ...data,
+      [name]: value,
+    });
+  };
+  return (
+    <>
+      <Form onSubmit={(e) => e.preventDefault()} className="vectorForm">
+        <h2>Login</h2>
+        <Input
+          type="email"
+          name="email"
+          onChange={handleChange}
+          value={data.email}
+          placeholder="Email"
+        />
+        <InputPassword
+          name="password"
+          onChange={handleChange}
+          value={data.password}
+          placeholder="Password"
+        />
+        <button type="button" onClick={handleSubmit}>
+          {" "}
+          Submit{" "}
+        </button>
+      </Form>
+    </>
+  );
+}
 
-![code pour un input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875331783692359/Capture_decran_2024-04-19_153654.png?ex=6634e8fb&is=662273fb&hm=83a38af114647d98a1608253bd13bfa50b986d2e5f8f1f1dd8aa6f6046a3a7a9&)
+export default App;
+```
 
-![dans le return](https://media.discordapp.net/attachments/1227592850624090143/1230875331553132606/Capture_decran_2024-04-19_153230.png?ex=6634e8fb&is=662273fb&hm=1e0d2862839f97d4c2f951fbb734bd44a195fd54457913a310e77fbc7dfe6a65&=&format=webp&quality=lossless&width=1434&height=66)
+### Voici le rendu!
 
-Voici le rendu
+![Login form avec onSubmit](https://media.discordapp.net/attachments/1227592850624090143/1233153861804359870/Capture_decran_2024-04-25_214757.png?ex=662cb847&is=662b66c7&hm=0601220bb97af40a39aab9792394d8d40c3241e4f25e972834b61da3b4e2dfed&=&format=webp&quality=lossless&width=721&height=710)
 
-![input](https://cdn.discordapp.com/attachments/1227592850624090143/1230875737695846410/Capture_decran_2024-04-19_153956.png?ex=6634e95c&is=6622745c&hm=967a58b16562e0d351b66c78b5eb2cf86b80b067decde47496c1ce0a8d7919f1&)
+```jsx
+import { Form, Input, InputPassword } from "@shark-man/react-form";
+import { useState } from "react";
+function App() {
+  const [data, setData] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    password: "",
+  });
+  const handleSubmit = () => {
+    console.log(data);
+  };
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setData({
+      ...data,
+      [name]: value,
+    });
+  };
+  return (
+    <>
+      <Form onSubmit={(e) => e.preventDefault()} className="basic-form">
+        <h2>Signup</h2>
+        <Input
+          type="text"
+          name="firstname"
+          onChange={handleChange}
+          value={data.firstname}
+          placeholder="First name"
+        />
+        <Input
+          type="text"
+          name="lastname"
+          onChange={handleChange}
+          value={data.lastname}
+          placeholder="Last name"
+        />
+        <Input
+          type="email"
+          name="email"
+          onChange={handleChange}
+          value={data.email}
+          placeholder="Email"
+        />
+        <InputPassword
+          name="password"
+          onChange={handleChange}
+          value={data.password}
+          placeholder="Password"
+        />
+        <button type="button" onClick={handleSubmit}>
+          {" "}
+          Submit{" "}
+        </button>
+      </Form>
+    </>
+  );
+}
 
+export default App;
+```
 
+![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
 
-   Exemple d'un button
-
-![code pour un button](https://media.discordapp.net/attachments/1227592850624090143/1230875330932379649/Capture_decran_2024-04-19_153014.png?ex=6634e8fb&is=662273fb&hm=64bfcc543fbc71ba1323ac66cf07effa0120aebc0f1d18c8c789d867a11c4dfd&=&format=webp&quality=lossless&width=1010&height=43)
-
-![dans le return](https://media.discordapp.net/attachments/1227592850624090143/1230875330642968586/Capture_decran_2024-04-19_152957.png?ex=6634e8fb&is=662273fb&hm=373f6edd1cf9d8d49d1bc44d59d97db5a3fcdac0a636583c9141591818eadbd9&=&format=webp&quality=lossless&width=1220&height=87)
-
-
-Voici le rendu
-![button](https://media.discordapp.net/attachments/1227592850624090143/1230875330202439711/Capture_decran_2024-04-19_152914.png?ex=6634e8fb&is=662273fb&hm=6fe814cef355e48a229c7ed0ca79a9fac9b8e35159b226a14e13c54ab814865d&=&format=webp&quality=lossless&width=458&height=123)
-
-
-
-   
-    
