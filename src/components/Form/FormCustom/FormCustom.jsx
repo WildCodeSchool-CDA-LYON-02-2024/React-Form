@@ -1,24 +1,15 @@
-import "./Form.css";
+import PropTypes from "prop-types";
 
-function Form() {
+import "./FormCustom.css";
+
+function Form({ children, ...restProps }) {
   return (
     <div className="form-container">
-      <form>
-        <h1 className="signup">SIGN-UP </h1>
-
-        <div className="input-container">
-          <input type="text" placeholder="Nom" />
-          <input type="text" placeholder="Prenom" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-        </div>
-        <button className="btn-signup" type="submit ">
-          {" "}
-          Sign-Up
-        </button>
-      </form>
+      <form {...restProps}>{children}</form>
     </div>
   );
 }
-
+Form.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+};
 export default Form;
