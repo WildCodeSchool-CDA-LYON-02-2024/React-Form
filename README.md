@@ -4,8 +4,11 @@
 ---
 
 ## **Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
+---
 
-#### **Elle offre une variété de boutons, d'entrées et de formulaires préconçus, entièrement personnalisables selon les besoins spécifiques en matière de style, de couleur et de comportement. De plus, elle comprend une sélection de thèmes prédéfinis pour une harmonisation rapide avec le design global de l'application.** 
+
+#### Elle offre une variété de boutons, d'entrées et de formulaires préconçus, entièrement personnalisables selon les besoins spécifiques en matière de style, de couleur et de comportement. De plus, elle comprend une sélection de thèmes prédéfinis pour une harmonisation rapide avec le design global de l'application. 
+
 
 ###### - Variété de boutons, d'entrées et de formulaires préconçus.
 ###### - Personnalisable en termes de style, de couleur et de comportement.
@@ -20,6 +23,8 @@
       npm i @shark-man/react-form
 
 ---
+
+
 
 ## QuickStart
 
@@ -61,12 +66,14 @@ export default App;
 ```
 
 ### Voici le rendu!
-
 ---
 
 ![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
 
+
+
 ### Exemple Login Form
+--- 
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -115,12 +122,17 @@ function App() {
 export default App;
 ```
 
+
 ### Voici le rendu!
+---
 
 ![Login form avec onSubmit](https://media.discordapp.net/attachments/1227592850624090143/1233153861804359870/Capture_decran_2024-04-25_214757.png?ex=662cb847&is=662b66c7&hm=0601220bb97af40a39aab9792394d8d40c3241e4f25e972834b61da3b4e2dfed&=&format=webp&quality=lossless&width=721&height=710)
 
 
+
 ### Exemple Signup Form
+---
+
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
