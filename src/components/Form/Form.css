@@ -42,7 +42,7 @@
   border: 2px solid #0366d64d;
   border-radius: 4px;
   box-sizing: border-box;
-  width: 20em;
+  width: 23em;
   height: 3em;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +53,7 @@
 .basic-form select option {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
-  background: #0276ff;
+  background: #96bbe5;
   color: #fff;
 }
 
@@ -108,10 +108,11 @@
 }
 
 .basic-form h2 {
-  font-family: "Fascinate Inline", Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
   margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
   margin-bottom: 1em;
 }
 
@@ -177,12 +178,30 @@
   align-items: center;
   margin-top: 1em;
 }
+.vectorForm select {
+  margin: 8px 0;
+  border-bottom: solid 1px green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 23em;
+  height: 3em;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background: #fff;
+}
 
+.vectorForm select option {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background: #b6f9cb;
+  color: #fff;
+}
 .vectorForm h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-top: -20%;
-  letter-spacing: 10px;
+  font-size: 1.5em;
+  margin-top: 10px;
   text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1em;
 }

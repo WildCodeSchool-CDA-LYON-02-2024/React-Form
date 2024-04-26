@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
 import "./Input.css";
 
-function Input({ type, name, placeholder, value, onChange, ...restProps }) {
+export function Input({
+  type,
+  name,
+  placeholder,
+  value,
+  onChange,
+  ...restProps
+}) {
   const handleInputChange = (event) => {
     if (onChange) {
       onChange(event);
@@ -31,17 +38,15 @@ function Input({ type, name, placeholder, value, onChange, ...restProps }) {
   };
 
   return (
-    <div {...restProps}>
-      <input
-        type={type}
-        name={name}
-        placeholder={placeholder}
-        value={value}
-        onChange={handleInputChange}
-        onBlur={handleBlur}
-        {...restProps}
-      />
-    </div>
+    <input
+      type={type}
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={handleInputChange}
+      onBlur={handleBlur}
+      {...restProps}
+    />
   );
 }
 
@@ -52,5 +57,3 @@ Input.propTypes = {
   value: PropTypes.string,
   onChange: PropTypes.func,
 };
-
-export default Input;

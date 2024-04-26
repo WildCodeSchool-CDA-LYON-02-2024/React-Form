@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
-import "./Form.css"; 
+import "./Form.css";
 
-function Form({ title, children, onSubmit, onError, className, ...restProps }) {
+export function Form({
+  title,
+  children,
+  onSubmit,
+  onError,
+  className,
+  ...restProps
+}) {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
@@ -17,8 +24,7 @@ function Form({ title, children, onSubmit, onError, className, ...restProps }) {
     }
   };
 
-  
-  const formClassName = className ? ` ${className}` : 'vectorForm';
+  const formClassName = className ? ` ${className}` : "basic-form";
 
   return (
     <form {...restProps} onSubmit={handleSubmit} className={formClassName}>
@@ -33,7 +39,5 @@ Form.propTypes = {
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   onSubmit: PropTypes.func,
   onError: PropTypes.func,
-  className: PropTypes.string, 
+  className: PropTypes.string,
 };
-
-export default Form;
