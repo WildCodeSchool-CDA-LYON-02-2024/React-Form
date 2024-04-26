@@ -1,3 +1,4 @@
+
 # FORMI-DABLE !
 
 ---
@@ -15,6 +16,8 @@
 ## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 ```jsx
+
+
 import { Form, Input } from "@shark-man/react-form";
 
 function App() {
@@ -45,6 +48,7 @@ function App() {
     </>
   );
 }
+
 export default App;
 ```
 
@@ -197,3 +201,4 @@ function Buttontest() {
 
 export default Buttontest;
 ```
+
