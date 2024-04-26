@@ -4,6 +4,15 @@
 
 **Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
 
+---
+
+- Variété de boutons, d'entrées et de formulaires préconçus.
+- Personnalisable en termes de style, de couleur et de comportement.
+- Thèmes prédéfinis disponibles pour une harmonisation rapide.
+- Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.
+- Facilite l'intégration et améliore l'expérience utilisateur.
+  
+
 ## Installation
 
 **Pour commencer à utiliser la bibliothèque, suivez ces étapes :**
@@ -184,6 +193,9 @@ function App() {
 export default App;
 ```
 
+
+### Voici le rendu!
+
 ![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
 
 
@@ -210,3 +222,8 @@ function Buttontest() {
 
 export default Buttontest;
 ```
+
+
+### Voici le rendu!
+
+![Exemple de Buttons ](https://cdn.discordapp.com/attachments/1227592850624090143/1233393196302860368/Capture_decran_2024-04-26_142324.png?ex=662cee6d&is=662b9ced&hm=5217d18e6607a93dda96eeafc45dc62b2495b3a1b3e20b43fdbee3cfee1937fb&)
