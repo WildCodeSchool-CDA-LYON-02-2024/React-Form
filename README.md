@@ -13,7 +13,7 @@
 
 ---
 
-## Exemple d'utilisation simple de notre application
+## QuickStart
 
 ```jsx
 
