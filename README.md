@@ -12,6 +12,9 @@
 
 ---
 
+
+
+
 ## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 ```jsx
@@ -53,6 +56,7 @@ export default App;
 ---
 
 ![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
+
 
 
 
@@ -187,10 +191,6 @@ export default App;
 
 
 ## Ce code importe et utilise un composant Button de la bibliothèque _"@shark-man/react-form"_.   Il démontre comment créer plusieurs boutons avec différents styles en utilisant des classes CSS spécifiques.
-
-
-
-
 ```jsx
 import { Button } from "@shark-man/react-form";
 
