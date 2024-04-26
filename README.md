@@ -1,20 +1,8 @@
-
 # FORMI-DABLE !
 
 ---
 
-## **Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
----
-
-
-
-##### les points forts de la bibliothéque:
-
- - Variété de boutons, d'entrées et de formulaires préconçus.
- - Personnalisable en termes de style, de couleur et de comportement.
- - Thèmes prédéfinis disponibles pour une harmonisation rapide.
- - Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.
- - Facilite l'intégration et améliore l'expérience utilisateur.
+**Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
 
 ## Installation
 
@@ -24,13 +12,9 @@
 
 ---
 
-
-
-## QuickStart
+## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 ```jsx
-
-
 import { Form, Input } from "@shark-man/react-form";
 
 function App() {
@@ -61,19 +45,16 @@ function App() {
     </>
   );
 }
-
 export default App;
 ```
 
 ### Voici le rendu!
+
 ---
 
 ![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
 
-
-
-### Exemple Login Form
---- 
+### Ce code crée un formulaire de connexion dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form". 
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -122,17 +103,13 @@ function App() {
 export default App;
 ```
 
-
 ### Voici le rendu!
----
 
 ![Login form avec onSubmit](https://media.discordapp.net/attachments/1227592850624090143/1233153861804359870/Capture_decran_2024-04-25_214757.png?ex=662cb847&is=662b66c7&hm=0601220bb97af40a39aab9792394d8d40c3241e4f25e972834b61da3b4e2dfed&=&format=webp&quality=lossless&width=721&height=710)
 
 
 
-### Exemple Signup Form
----
-
+#### Ce code montre comment créer un formulaire d'inscription dans une application React en utilisant des composants de la bibliothèque _"@shark-man/react-form"_. 
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -197,9 +174,26 @@ function App() {
 export default App;
 ```
 
-
-### Voici le rendu!
----
-
 ![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
 
+##### Ce code importe et utilise un composant Button de la bibliothèque _"@shark-man/react-form"_.   Il démontre comment créer plusieurs boutons avec différents styles en utilisant des classes CSS spécifiques. Ces boutons peuvent être intégrés dans une application pour offrir des fonctionnalités interactives et esthétiquement plaisantes.
+
+```jsx
+import { Button } from "@shark-man/react-form";
+
+function Buttontest() {
+  return (
+    <div>
+      <Button className="button-glow">Button-glow </Button>
+      <br />
+      <Button className="cta-button"> Cta-button</Button>
+      <br />
+      <Button className="button-normal"> Button-normal</Button>
+      <br />
+      <Button className="button-martial"> Button-martial</Button>
+    </div>
+  );
+}
+
+export default Buttontest;
+```
