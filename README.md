@@ -197,7 +197,9 @@ function App() {
 export default App;
 ```
 
+
 ### Voici le rendu!
+---
 
 ![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
 
