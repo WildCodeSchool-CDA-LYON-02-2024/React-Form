@@ -3,7 +3,7 @@ import "./InputTheme.css";
 import eye from "../../../assets/eye.svg";
 import eyeOff from "../../../assets/eye-off.svg";
 
-function InputPassword() {
+export function InputPassword({ ...restProps }) {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -13,15 +13,8 @@ function InputPassword() {
   return (
     <>
       <div className="input__wrapper">
-        <input
-          id="password"
-          type={passwordVisible ? "text" : "password"}
-          className="input__field"
-          placeholder="Your Password"
-        />
-        <label htmlFor="password" className="input__label">
-          Password
-        </label>
+        <input {...restProps} type={passwordVisible ? "text" : "password"} />
+
         <img
           alt="Eye Icon"
           title="Toggle Password Visibility"
@@ -33,5 +26,3 @@ function InputPassword() {
     </>
   );
 }
-
-export default InputPassword;

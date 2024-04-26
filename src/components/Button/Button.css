@@ -11,7 +11,7 @@
   color: #fff;
   position: relative;
   z-index: 0;
-  border-radius: 2rem; /* Or any specific value you want */
+  border-radius: 2rem; 
   transition: all 0.5s;
   gap: 0.5rem;
   font-size: 1em;
@@ -34,17 +34,17 @@
   position: absolute;
   background-size: 300%;
   z-index: -1;
-  filter: blur(0.5rem); /* Or any specific value you want */
-  width: calc(100% + 0.5rem); /* Or any specific value you want */
-  height: calc(100% + 0.5rem); /* Or any specific value you want */
+  filter: blur(0.5rem); 
+  width: calc(100% + 0.5rem); 
+  height: calc(100% + 0.5rem); 
   opacity: 0;
-  border-radius: 2rem; /* Or any specific value you want */
+  border-radius: 2rem; 
   animation: glow 25s alternate infinite;
   transition: opacity 0.5s linear;
 }
 
 .button-glow:active {
-  background: #c8c5df; /* Or any specific value you want */
+  background: #c8c5df; 
 }
 
 .button-glow:hover:before {
@@ -57,10 +57,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #3f396f; /* Or any specific value you want */
+  background: #3f396f; 
   left: 0;
   top: 0;
-  border-radius: 2rem; /* Or any specific value you want */
+  border-radius: 2rem; 
 }
 
 @keyframes glow {
