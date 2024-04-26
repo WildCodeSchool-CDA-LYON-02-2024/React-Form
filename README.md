@@ -10,8 +10,8 @@
 ###### - Variété de boutons, d'entrées et de formulaires préconçus.
 ###### - Personnalisable en termes de style, de couleur et de comportement.
 ###### - Thèmes prédéfinis disponibles pour une harmonisation rapide.
-##### - Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.
-##### - Facilite l'intégration et améliore l'expérience utilisateur.
+###### - Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.
+###### - Facilite l'intégration et améliore l'expérience utilisateur.
 
 ## Installation
 
