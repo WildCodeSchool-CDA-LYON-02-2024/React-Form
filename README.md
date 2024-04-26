@@ -3,15 +3,15 @@
 
 ---
 
-**Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
+## **Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
 
-####*Elle offre une variété de boutons, d'entrées et de formulaires préconçus, entièrement personnalisables selon les besoins spécifiques en matière de style, de couleur et de comportement. De plus, elle comprend une sélection de thèmes prédéfinis pour une harmonisation rapide avec le design global de l'application.*####
+#### **Elle offre une variété de boutons, d'entrées et de formulaires préconçus, entièrement personnalisables selon les besoins spécifiques en matière de style, de couleur et de comportement. De plus, elle comprend une sélection de thèmes prédéfinis pour une harmonisation rapide avec le design global de l'application.** 
 
-######- Variété de boutons, d'entrées et de formulaires préconçus.#####
-######- Personnalisable en termes de style, de couleur et de comportement.#####
-######- Thèmes prédéfinis disponibles pour une harmonisation rapide.#####
-#####- Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.#####
-#####- Facilite l'intégration et améliore l'expérience utilisateur.#####
+###### - Variété de boutons, d'entrées et de formulaires préconçus.
+###### - Personnalisable en termes de style, de couleur et de comportement.
+###### - Thèmes prédéfinis disponibles pour une harmonisation rapide.
+##### - Solution complète et flexible pour les nouveaux projets ou les mises à jour d'applications existantes.
+##### - Facilite l'intégration et améliore l'expérience utilisateur.
 
 ## Installation
 
