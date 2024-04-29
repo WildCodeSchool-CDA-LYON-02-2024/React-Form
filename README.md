@@ -44,13 +44,16 @@
 | name        | Nom du champ dans le formulaire       | `name="password"`                                          |
 | placeholder | Texte à afficher en tant que placeholder dans le champ | `placeholder="Password"`                                |
 | label       | Étiquette du champ                     | `label="Password"`                                         |
-| pattern     | Modèle de validation du champ          | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
+| pattern     | Modèle de validation du champ(vous pouvez aussi ajouter les votres)         | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
 | errorMessage| Message d'erreur affiché en cas de validation échouée | `errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."` |
 
 
 
 
+
+
 ## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
+
 
 ```jsx
 import { Form, Input } from "@shark-man/react-form";
@@ -273,7 +276,7 @@ export default App;
 ```jsx
 import { Button } from "@shark-man/react-form";
 
-function Buttontest() {
+function App() {
   return (
     <div>
       <Button className="button-glow">Button-glow </Button>
@@ -287,7 +290,7 @@ function Buttontest() {
   );
 }
 
-export default Buttontest;
+export default App;
 ```
 
 
