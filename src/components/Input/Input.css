@@ -85,3 +85,60 @@
 .normal-round:focus {
   border-color: #007bff;
 }
+
+
+/*------------------------------------------------------------ */
+
+
+input {
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+label {
+  font-size: 15px;
+  color: gray;
+  margin-left: 5px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(3px);
+  }
+}
+
+span {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+}
+input:invalid[focused="true"] {
+  border: 3px solid red;
+  animation: shake 0.3s ease-in-out forwards;
+}
+input:valid[focused="true"] {
+  border:3px solid green;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
