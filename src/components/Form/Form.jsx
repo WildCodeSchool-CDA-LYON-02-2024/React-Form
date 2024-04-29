@@ -24,10 +24,9 @@ export function Form({
     }
   };
 
-  const formClassName = className ? ` ${className}` : "basic-form";
 
   return (
-    <form {...restProps} onSubmit={handleSubmit} className={formClassName}>
+    <form {...restProps} onSubmit={handleSubmit} className={className}>
       {title && <h2>{title}</h2>}
       {children}
     </form>

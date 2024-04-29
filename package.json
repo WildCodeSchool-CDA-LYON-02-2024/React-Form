@@ -1,10 +1,16 @@
 {
   "name": "@shark-man/react-form",
   "private": false,
-  "version": "0.0.6",
-  "license" : "MIT",
+  "version": "0.1.1",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/WildCodeSchool-CDA-LYON-02-2024/React-Form.git"
+    },
+    "description": "  Formidable est une bibliothèque de formulaires réutilisables pour les applications web, offrant une variété de boutons, d'entrées et de formulaires préconçus, personnalisables en style et en comportement.",
+  "license": "MIT",
   "type": "module",
   "main": "/main.js",
+ 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +20,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
