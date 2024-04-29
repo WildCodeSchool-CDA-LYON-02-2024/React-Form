@@ -131,7 +131,7 @@ export default App;
 
 
 
-## Ce code montre comment créer un formulaire d'inscription dans une application React en utilisant des composants de la bibliothèque _"@shark-man/react-form"_. 
+### Ce code montre comment créer un formulaire d'inscription dans une application React en utilisant des composants de la bibliothèque _"@shark-man/react-form"_. 
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -197,11 +197,52 @@ export default App;
 ```
 
 
+
+
 ### Voici le rendu!
 
 ![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
 
 
+### Ce code représente un formulaire de connexion React qui utilise les composants Input et Form du package "@shark-man/react-form", avec validation des données pour les champs de nom d'utilisateur et de mot de passe.
+
+
+```jsx
+import { Input,Form } from "@shark-man/react-form";
+
+function App() {
+  return (
+    <Form className="basic-form">
+      <h2> Login </h2>
+      <Input
+        type="text"
+        name="username"
+        placeholder="username"
+        label="username"
+        pattern="^[A-Za-z0-9]{3,16}$"
+        errorMessage="user name muste be 3-16 characters"
+      />
+      <Input
+        type="password"
+        name="password"
+        placeholder="Password"
+        label="Password"
+        pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"
+        errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."
+      />
+    </Form>
+  );
+}
+
+export default App;
+```
+
+
+
+### Voici le rendu!
+
+![Login avec un erreur ](https://cdn.discordapp.com/attachments/1227592850624090143/1234486284811112548/Capture_decran_2024-04-29_144648.png?ex=6630e871&is=662f96f1&hm=e7b36dd37d47fb4a7b64f0c21c4c7f2d54eefa196adf667dcb79d5ad69db7d40&)
+![Login  sans erreur ](https://media.discordapp.net/attachments/1227592850624090143/1234486285096452138/Capture_decran_2024-04-29_144715.png?ex=6630e872&is=662f96f2&hm=8e91cdaace25c3bd4cdef565ac1f1115e34abf6a541b4a76fffd1c83d8363774&=&format=webp&quality=lossless&width=866&height=661)
 
 
 
