@@ -1,5 +1,7 @@
 ![exemple d'utilisation](https://cdn.discordapp.com/attachments/702664242943492207/1232960794111639602/40a79c93-3214-4bc7-872a-03789829ac2e_1.webp?ex=662b5bb8&is=662a0a38&hm=6990be9121e727da157213c167864ee1bcfe037b80f3d5860288a3de8d243d2b&)
 
+# FORMI-DABLE !
+
 ---
 
 **Ce projet est une bibliothèque de formulaires réutilisables pour les applications web.**
@@ -21,6 +23,8 @@
 ## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 ```jsx
+
+
 import { Form, Input } from "@shark-man/react-form";
 
 function App() {
@@ -51,6 +55,7 @@ function App() {
     </>
   );
 }
+
 export default App;
 ```
 
@@ -201,3 +206,4 @@ function Buttontest() {
 
 export default Buttontest;
 ```
+
