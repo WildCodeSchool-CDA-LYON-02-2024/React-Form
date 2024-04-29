@@ -294,6 +294,6 @@ export default App;
 ```
 
 
-### Voici le rendu!
+### Voici le rendu !
 
 ![Exemple de Buttons ](https://cdn.discordapp.com/attachments/1227592850624090143/1233393196302860368/Capture_decran_2024-04-26_142324.png?ex=662cee6d&is=662b9ced&hm=5217d18e6607a93dda96eeafc45dc62b2495b3a1b3e20b43fdbee3cfee1937fb&)
