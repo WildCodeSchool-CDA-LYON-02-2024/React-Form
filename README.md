@@ -64,8 +64,8 @@
 
 
 ```jsx
-import { Input } from "./components/Input/Input";
-import { Form } from "./components/Form/Form";
+import { Input, Form }  from "@shark-man/react-form";
+
 function App() {
   return (
     <Form className="vectorForm">
