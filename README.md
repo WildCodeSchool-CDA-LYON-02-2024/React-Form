@@ -41,16 +41,17 @@
 
 ### Props pour les champs Input :
 
-| Props       | Description                            | Exemple                                                    |
-|-------------|----------------------------------------|------------------------------------------------------------|
-| type        | Type de champ (par exemple, "text", "password", etc.) | `type="password"`                                          |
-| name        | Nom du champ dans le formulaire       | `name="password"`                                          |
-| placeholder | Texte à afficher en tant que placeholder dans le champ | `placeholder="Password"`                                |
-| label       | Étiquette du champ                     | `label="Password"`                                         |
-| pattern     | Modèle de validation du champ(vous pouvez aussi ajouter les votres)         | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
-| errorMessage| Message d'erreur affiché en cas de validation échouée | `errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."` |
+### Props pour les champs Input :
 
-
+| Props        | Description                                          | Exemple                                                                                      |
+|--------------|------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| type         | Type de champ (par exemple, "text", "password", etc.) | `type="password"`                                                                            |
+| name         | Nom du champ dans le formulaire                     | `name="password"`                                                                            |
+| placeholder  | Texte à afficher en tant que placeholder dans le champ | `placeholder="Password"`                                                                   |
+| label        | Étiquette du champ                                   | `label="Password"`                                                                           |
+| pattern      | Modèle de validation du champ(vous pouvez aussi ajouter les votres) | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
+| errorMessage | Message d'erreur affiché en cas de validation échouée | `errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."` |
+| required     | Indique si le champ est obligatoire                | `required="true"`                                                                            |
 
 
 
@@ -63,44 +64,54 @@
 
 
 ```jsx
-import { Form, Input } from "@shark-man/react-form";
+import { Input, Form }  from "@shark-man/react-form";
 
 function App() {
   return (
-    <>
-      <Form className="basic-form">
-        <h2>Information</h2>
-        <Input type="text" placeholder="firstname" />
-        <Input type="text" placeholder="lastname" />
-        <Input type="number" placeholder="age" />
-        <label>i have a handicap</label>
-        <label htmlFor="">
-          <input type="radio" /> Yes
-        </label>
-        <label htmlFor="">
-          <Input type="radio" /> No
-        </label>
+    <Form className="vectorForm">
+      <h2> Signup </h2>
+      <Input
+        type="text"
+        name="first name"
+        placeholder="first name"
+        label="First name"
+        pattern="^[A-Za-z0-9]{3,16}$"
+        required="true"
+        errorMessage="first name must be 3-16 characters"
+      />
+      <Input
+        type="text"
+        name="last name"
+        placeholder="last name"
+        label="Last name"
+        pattern="^[A-Za-z0-9]{3,16}$"
+        required="true"
+        errorMessage="last name must be 3-16 characters"
+      />
+      <Input
+        type="password"
+        name="password"
+        placeholder="Password"
+        label="Password"
+        required="true"
+        pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"
+        errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."
+      />
 
-        <select>
-          {" "}
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </select>
-
-        <button> Submit </button>
-      </Form>
-    </>
+      <button> Sign up </button>
+    </Form>
   );
 }
+
 export default App;
+
 ```
 
 ### Voici le rendu!
 
 ---
 
-![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
+![exemple d'utilisation](https://cdn.discordapp.com/attachments/1227592850624090143/1234864805198692402/Capture_decran_2024-04-30_155120.png?ex=663248f8&is=6630f778&hm=ed7a9d935342b246c81dcd5c8fdbc62e7bbe98aa238dd9661fef5b654ea0380e&)
 
 
 
@@ -240,7 +251,7 @@ export default App;
 
 ### Voici le rendu!
 
-![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
+![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1234839176797491200/Capture_decran_2024-04-30_140936.png?ex=66323119&is=6630df99&hm=5b6697a7fd3ef85fa76759fb05aca7eda85114d07e8e8291f682ff224e18c3d8&)
 
 
 
