@@ -1,12 +1,19 @@
 {
   "name": "@shark-man/react-form",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.4",
+  "homepage": "https://doc-formidable.netlify.app/",
   "repository": {
       "type": "git",
       "url": "https://github.com/WildCodeSchool-CDA-LYON-02-2024/React-Form.git"
     },
     "description": "  Formidable est une bibliothèque de formulaires réutilisables pour les applications web, offrant une variété de boutons, d'entrées et de formulaires préconçus, personnalisables en style et en comportement.",
+    "keywords": [
+      "react form",
+      "form react",
+      "form",
+      "react input"
+    ],
   "license": "MIT",
   "type": "module",
   "main": "/main.js",
