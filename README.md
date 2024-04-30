@@ -55,10 +55,9 @@
 
 
 
-## Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 
-
+### Ce code présente un formulaire de collecte d'informations dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form".
 
 
 
@@ -107,7 +106,8 @@ export default App;
 
 
 
-## Ce code crée un formulaire de connexion dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form". 
+### Ce code crée un formulaire de connexion dans une application React en utilisant des composants de la bibliothèque "@shark-man/react-form". 
+
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -159,6 +159,7 @@ export default App;
 
 ```
 
+
 ### Voici le rendu!
 
 ![Login form avec onSubmit](https://media.discordapp.net/attachments/1227592850624090143/1233153861804359870/Capture_decran_2024-04-25_214757.png?ex=662cb847&is=662b66c7&hm=0601220bb97af40a39aab9792394d8d40c3241e4f25e972834b61da3b4e2dfed&=&format=webp&quality=lossless&width=721&height=710)
@@ -169,6 +170,7 @@ export default App;
 
 
 ### Ce code montre comment créer un formulaire d'inscription dans une application React en utilisant des composants de la bibliothèque _"@shark-man/react-form"_. 
+
 
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
@@ -239,6 +241,7 @@ export default App;
 ### Voici le rendu!
 
 ![Signup form avec onSubmit](https://cdn.discordapp.com/attachments/1227592850624090143/1233153861561352275/Capture_decran_2024-04-25_214153.png?ex=662cb847&is=662b66c7&hm=0bea69ddd7d9742160ecefe3f92d8c1867f18ceaef8aadde38a9574b6d71814b&)
+
 
 
 
