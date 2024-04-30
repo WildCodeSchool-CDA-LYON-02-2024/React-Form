@@ -104,14 +104,17 @@ export default App;
 ```jsx
 import { Form, Input, InputPassword } from "@shark-man/react-form";
 import { useState } from "react";
+
 function App() {
   const [data, setData] = useState({
-    email: " ",
-    password: " ",
+    email: "",
+    password: "",
   });
+
   const handleSubmit = () => {
     console.log(data);
   };
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setData({
@@ -119,33 +122,33 @@ function App() {
       [name]: value,
     });
   };
+
   return (
-    <>
-      <Form onSubmit={(e) => e.preventDefault()} className="vectorForm">
-        <h2>Login</h2>
-        <Input
-          type="email"
-          name="email"
-          onChange={handleChange}
-          value={data.email}
-          placeholder="Email"
-        />
-        <InputPassword
-          name="password"
-          onChange={handleChange}
-          value={data.password}
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleSubmit}>
-          {" "}
-          Submit{" "}
-        </button>
-      </Form>
-    </>
+    <Form onSubmit={(e) => e.preventDefault()} className="vectorForm">
+      <h2>Login</h2>
+      <Input
+        type="email"
+        name="email"
+        onChange={handleChange}
+        value={data.email}
+        placeholder="Email"
+      />
+      <InputPassword
+        name="password"
+        onChange={handleChange}
+        value={data.password}
+        placeholder="Password"
+      />
+      <button type="button" onClick={handleSubmit}>
+        {" "}
+        Submit{" "}
+      </button>
+    </Form>
   );
 }
 
 export default App;
+
 ```
 
 ### Voici le rendu!
