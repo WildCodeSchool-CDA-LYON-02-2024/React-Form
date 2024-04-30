@@ -63,44 +63,54 @@
 
 
 ```jsx
-import { Form, Input } from "@shark-man/react-form";
-
+import { Input } from "./components/Input/Input";
+import { Form } from "./components/Form/Form";
 function App() {
   return (
-    <>
-      <Form className="basic-form">
-        <h2>Information</h2>
-        <Input type="text" placeholder="firstname" />
-        <Input type="text" placeholder="lastname" />
-        <Input type="number" placeholder="age" />
-        <label>i have a handicap</label>
-        <label htmlFor="">
-          <input type="radio" /> Yes
-        </label>
-        <label htmlFor="">
-          <Input type="radio" /> No
-        </label>
+    <Form className="vectorForm">
+      <h2> Signup </h2>
+      <Input
+        type="text"
+        name="first name"
+        placeholder="first name"
+        label="First name"
+        pattern="^[A-Za-z0-9]{3,16}$"
+        required="true"
+        errorMessage="first name must be 3-16 characters"
+      />
+      <Input
+        type="text"
+        name="last name"
+        placeholder="last name"
+        label="Last name"
+        pattern="^[A-Za-z0-9]{3,16}$"
+        required="true"
+        errorMessage="last name must be 3-16 characters"
+      />
+      <Input
+        type="password"
+        name="password"
+        placeholder="Password"
+        label="Password"
+        required="true"
+        pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"
+        errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."
+      />
 
-        <select>
-          {" "}
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </select>
-
-        <button> Submit </button>
-      </Form>
-    </>
+      <button> Sign up </button>
+    </Form>
   );
 }
+
 export default App;
+
 ```
 
 ### Voici le rendu!
 
 ---
 
-![exemple d'utilisation](https://media.discordapp.net/attachments/1227592850624090143/1233153862056022138/Capture_decran_2024-04-25_220854.png?ex=662c0f87&is=662abe07&hm=f1fd3b37961370b447ec002e50ca2e8740cd5517a68c87f24e9662a1d83adc59&=&format=webp&quality=lossless&width=533&height=708)
+![exemple d'utilisation](https://cdn.discordapp.com/attachments/1227592850624090143/1234864805198692402/Capture_decran_2024-04-30_155120.png?ex=663248f8&is=6630f778&hm=ed7a9d935342b246c81dcd5c8fdbc62e7bbe98aa238dd9661fef5b654ea0380e&)
 
 
 
