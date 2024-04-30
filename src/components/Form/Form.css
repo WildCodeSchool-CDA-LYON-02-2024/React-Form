@@ -101,6 +101,7 @@
 
 .basic-form button:active {
   background-color: #0366d64d;
+  
 }
 
 .basic-form button:hover {
@@ -166,6 +167,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   letter-spacing: 5px;
+  cursor: pointer;
 }
 
 .vectorForm label {
@@ -242,6 +244,7 @@
   color: #fff;
   border: 2px solid #cfa67b;
   margin-top: 2em;
+  cursor: pointer;
 }
 
 .animal-form button:hover {
