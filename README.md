@@ -25,29 +25,6 @@
 ---
 
 
-### les listes des classes et des props 
-
----
-
-
-| Nom de la Classe | Description                                 |
-|------------------|---------------------------------------------|
-| basic-form       | Classe  pour un formulaire standard  |
-| vectorForm       | Classe pour un formulaire avec un thème vectoriel |
-| animal-form       | Classe pour un formulaire avec un thème animalier |
-
-### Props pour les champs Input :
-
-| Props       | Description                            | Exemple                                                    |
-|-------------|----------------------------------------|------------------------------------------------------------|
-| type        | Type de champ (par exemple, "text", "password", etc.) | `type="password"`                                          |
-| name        | Nom du champ dans le formulaire       | `name="password"`                                          |
-| placeholder | Texte à afficher en tant que placeholder dans le champ | `placeholder="Password"`                                |
-| label       | Étiquette du champ                     | `label="Password"`                                         |
-| pattern     | Modèle de validation du champ(vous pouvez aussi ajouter les votres)         | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
-| errorMessage| Message d'erreur affiché en cas de validation échouée | `errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."` |
-
-
 
 
 
