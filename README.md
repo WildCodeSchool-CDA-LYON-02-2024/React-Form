@@ -51,7 +51,7 @@
 | label        | Étiquette du champ                                   | `label="Password"`                                                                           |
 | pattern      | Modèle de validation du champ(vous pouvez aussi ajouter les votres) | `pattern="(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}"` |
 | errorMessage | Message d'erreur affiché en cas de validation échouée | `errorMessage="Password must be 8-20 characters and include 1 number, 1 letter, and 1 special character."` |
-| required     | Indique si le champ est obligatoire                | `required={true}`                                                                            |
+| required     | Indique si le champ est obligatoire                | `required="true"`                                                                            |
 
 
 
