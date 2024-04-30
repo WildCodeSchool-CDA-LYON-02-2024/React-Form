@@ -285,7 +285,9 @@ export default App;
 
 
 
-## Ce code importe et utilise un composant Button de la bibliothèque _"@shark-man/react-form"_.   Il démontre comment créer plusieurs boutons avec différents styles en utilisant des classes CSS spécifiques.
+### Ce code importe et utilise un composant Button de la bibliothèque _"@shark-man/react-form"_.   Il démontre comment créer plusieurs boutons avec différents styles en utilisant des classes CSS spécifiques.
+
+
 ```jsx
 import { Input,Form } from "@shark-man/react-form";
 
