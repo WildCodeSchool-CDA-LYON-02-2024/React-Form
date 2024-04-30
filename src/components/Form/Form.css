@@ -1,3 +1,23 @@
+/* l'animation de la span d'erreur*/
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(3px);
+  }
+}
+
 .basic-form {
   display: flex;
   flex-direction: column;
@@ -24,6 +44,25 @@
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+}
+
+.basic-form span {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+}
+.basic-form input:invalid[focused="true"] {
+  border: 3px solid red;
+  animation: shake 0.3s ease-in-out forwards;
+}
+.basic-form input:valid {
+  border: 3px solid green;
+}
+.basic-form input:invalid[focused="true"] ~ span {
+  display: block;
 }
 .basic-form input[type="radio"] {
   width: 2em;
@@ -52,7 +91,7 @@
 
 .basic-form select option {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   background: #96bbe5;
   color: #fff;
 }
@@ -101,7 +140,6 @@
 
 .basic-form button:active {
   background-color: #0366d64d;
-  
 }
 
 .basic-form button:hover {
@@ -129,6 +167,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: 10%;
 }
 
 .vectorForm input {
@@ -142,6 +181,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   font-weight: 600;
+}
+
+.vectorForm input::placeholder {
+  font-size: 10px;
+  
 }
 
 .vectorForm input:focus {
@@ -208,6 +252,25 @@
   margin-bottom: 1em;
 }
 
+.vectorForm span {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+}
+.vectorForm input:invalid[focused="true"] {
+  border: 3px solid red;
+  animation: shake 0.3s ease-in-out forwards;
+}
+.vectorForm input:valid {
+  border: 3px solid green;
+}
+.vectorForm input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
 /* STYLE CSS DU "AnimalForm.jsx"*/
 
 .animal-form {
@@ -267,7 +330,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: border-color 0.3s ease;
   width: 20em;
-  height: 1em;
+  height: 2em;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .animal-form input:focus {
@@ -296,4 +361,23 @@
 
 .animal-form label {
   color: black;
+}
+
+.animal-form span {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+}
+.animal-form input:invalid[focused="true"] {
+  border: 3px solid red;
+  animation: shake 0.3s ease-in-out forwards;
+}
+.animal-form input:valid {
+  border: 3px solid green;
+}
+.animal-form input:invalid[focused="true"] ~ span {
+  display: block;
 }
