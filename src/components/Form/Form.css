@@ -28,6 +28,7 @@
   border-radius: 10px;
   box-shadow: #0366d64d 0px 0px 0px 3px;
   margin: auto;
+  background-color: white;
 }
 
 .basic-form > * {
@@ -49,10 +50,11 @@
 .basic-form span {
   font-size: 12px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 3px;
   color: red;
   display: none;
-  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 8px;
+  width: 30em;
 }
 .basic-form input:invalid[focused="true"] {
   border: 3px solid red;
@@ -163,11 +165,12 @@
   box-shadow: rgba(4, 109, 23, 0.4) 0px 0px 0px 2px,
     rgba(1, 95, 43, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0) 0px 1px 0px inset;
-  padding: 5em;
+  padding: 3em;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-left: 10%;
+  background-color: #fff;
 }
 
 .vectorForm input {
@@ -185,7 +188,6 @@
 
 .vectorForm input::placeholder {
   font-size: 10px;
-  
 }
 
 .vectorForm input:focus {
@@ -201,7 +203,7 @@
 }
 
 .vectorForm button {
-  margin-top: 15%;
+  margin-top: 20%;
   height: 2em;
   border: none;
   background-color: green;
@@ -216,20 +218,22 @@
 
 .vectorForm label {
   color: black;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-self: flex-start;
   display: flex;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 .vectorForm select {
   margin: 8px 0;
+  border: 0;
+  outline: 0;
   border-bottom: solid 1px green;
   border-radius: 4px;
   box-sizing: border-box;
-  width: 23em;
+  width: 22em;
   height: 3em;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -239,9 +243,9 @@
 
 .vectorForm select option {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   background: #b6f9cb;
-  color: #fff;
+  color: black;
 }
 .vectorForm h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -263,9 +267,11 @@
 .vectorForm input:invalid[focused="true"] {
   border: 3px solid red;
   animation: shake 0.3s ease-in-out forwards;
+  margin-left: -5px;
 }
 .vectorForm input:valid {
   border: 3px solid green;
+  margin-left: -5px;
 }
 .vectorForm input:invalid[focused="true"] ~ span {
   display: block;
@@ -379,5 +385,113 @@
   border: 3px solid green;
 }
 .animal-form input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+/* ****************************nature******************************/
+
+.formWild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25em;
+  min-height: 10em;
+  background-color: whitesmoke;
+  padding: 0px 60px;
+  border-radius: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.formWild h2 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.formWild button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.formWild button:hover {
+  font-size: 1.5em;
+  width: 110%;
+}
+.formWild input {
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 30em;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.formWild select {
+  padding: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 33em;
+  height: 3.5em;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: gray;
+}
+
+.formWild select option {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.formWild input[type="radio"] {
+  width: 2em;
+  margin-right: 10px;
+  border: 1px solid purple;
+}
+
+.formWild input[type="checkbox"] {
+  height: 1em;
+  border: 1px solid purple;
+}
+
+.formWild label {
+  font-size: 15px;
+  color: gray;
+  margin-left: 5px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.formWild span {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px;
+  color: red;
+  display: none;
+  margin-bottom: 5px;
+}
+.formWild input:invalid[focused="true"] {
+  border: 3px solid red;
+  animation: shake 0.3s ease-in-out forwards;
+}
+.formWild input:valid {
+  border: 3px solid green;
+}
+.formWild input:invalid[focused="true"] ~ span {
   display: block;
 }
