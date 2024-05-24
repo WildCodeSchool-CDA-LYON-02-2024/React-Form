@@ -38,6 +38,7 @@
 | basic-form       | Classe  pour un formulaire standard  |
 | vectorForm       | Classe pour un formulaire avec un thème vectoriel |
 | animal-form       | Classe pour un formulaire avec un thème animalier |
+| formWild          | Classe pour un formulaire avec un thème wild    |
 
 ### Props pour les champs Input :
 
